@@ -1,0 +1,64 @@
+/* Body */
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: monospace;
+    /* Add gradient to the background */
+    background: linear-gradient(to left bottom, lightblue, lightpink);
+    /* Center all the elements in the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Container */
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    /* padding is inside the element unlike margin */
+    padding: 20px;
+    /* Shadow effect*/
+    box-shadow: 5px 10px 10px rgba(0,0,0,.5);
+    border-radius: 50px;
+    width: 85%;
+    text-align: center;
+    color: rgb(104, 0, 125);
+}
+
+.heading{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    text-shadow: 0 10px 10px rgba(0,0,0,.5) ;
+    letter-spacing: 2px;
+}
+
+.joke{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 50px;
+}
+
+.btn{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    border-color: rgba(86, 254, 252, 0.6);
+    border-width: 5px;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(255,255,255,0.3);
+    text-transform: uppercase;
+    color: darkslateblue;
+}
+
+/* Hover effect */
+.btn:hover{
+    background-color: aquamarine;
+    box-shadow: 0 10px 4px rgba(0,0,0,.3);
+    transition: all 300ms ease;
+}
+
+
